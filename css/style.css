@@ -1,0 +1,26 @@
+
+h1{
+    padding: 20px;
+    text-align: center;
+    color: #D3A9A5;
+}
+.flexContainer{
+    display: flex;
+    column-gap: 10px;
+}
+.box{
+    width: 50%;
+    height: 150px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid white;
+    background-color: white;
+}
+#myWork{
+    padding: 500px;
+}
+.workGrid{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-gap: 10px;
+}
